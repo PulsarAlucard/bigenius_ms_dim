@@ -344,4 +344,5 @@ relationships:
         referenceTermId: '6852acfb-5802-4e89-97c4-4d4b002d8d28'
     additionalTermIds:
       - '75a4a5d7-5bbb-4625-82c3-fb45bc95acb3'
+    missingBkBehaviorId: '70e208b0-d8fa-4008-883b-4828d1dbf9b1'
     propertyValues: []
