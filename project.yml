@@ -1,0 +1,7 @@
+id: '631a5f2e-4d0f-4cba-3098-08dc95fa43f7'
+version: 'v1.4'
+name: 'manuel_test_005'
+description: 'adfs'
+configuration:
+  id: 'biGENIUS.Implementation.Generator.Dimensional.Mssql'
+  version: '1.6.1'
