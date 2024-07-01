@@ -5,3 +5,8 @@ description: 'adfs'
 configuration:
   id: 'biGENIUS.Implementation.Generator.Dimensional.Mssql'
   version: '1.6.1'
+sourceSystems:
+  - id: '3f222092-a0a0-4966-82f8-f45c1ee7dd1e'
+    name: 'pos'
+    description: ''
+    sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
