@@ -209,17 +209,6 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
-  - id: '90b69b76-1720-41fd-b1a0-42cba528083c'
-    name: 'CUSTOMER_ID'
-    dataType:
-      precision: 38
-      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '1ee8dc9c-9011-4d79-bb19-9539370a516a'
     name: 'SALES_PRICE'
     dataType:
@@ -331,8 +320,6 @@ dataflows:
             expression: 'd8e68c9b-e415-43f4-9ef2-1b3d2f51970f.3f60ebf2-3ac3-4342-a560-20331c91f6b9'
           - termId: '3a8d70d0-99de-4bb2-b529-4b3aee264f67'
             expression: 'd8e68c9b-e415-43f4-9ef2-1b3d2f51970f.df68388a-37ef-4630-90b9-da75b25d2b8f'
-          - termId: '90b69b76-1720-41fd-b1a0-42cba528083c'
-            expression: 'd8e68c9b-e415-43f4-9ef2-1b3d2f51970f.53f0bc9d-7e2e-4d40-891e-9c629c6ad017'
           - termId: '1ee8dc9c-9011-4d79-bb19-9539370a516a'
             expression: 'd8e68c9b-e415-43f4-9ef2-1b3d2f51970f.794ce848-e998-4ea6-a4eb-44bff8358f1f'
           - termId: '3532e8b2-120a-4b60-86da-625a6226afce'
