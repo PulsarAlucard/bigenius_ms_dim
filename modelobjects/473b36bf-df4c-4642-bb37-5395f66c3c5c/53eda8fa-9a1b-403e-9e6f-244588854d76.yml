@@ -268,6 +268,32 @@ terms:
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+  - id: '39756de0-766e-4b2a-b1db-d07f2ec1d3c4'
+    name: 'FK_CUSTOMER_CUSTOMER_ID1'
+    dataType:
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 38
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: true
+    isBusinessKeyForeignKey: true
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '75a4a5d7-5bbb-4625-82c3-fb45bc95acb3'
+    name: 'CUSTOMER_CUSTOMER_ID'
+    description: 'Default term with the identity of the referenced entity record'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    defaultTermId: '59d597b6-3b78-42c9-85f0-02c68f428094'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: true
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+    isIdentityForeignKey: true
 dataflows:
   - id: 'd0af01ba-505b-4e7c-b4f3-7170de7e36a3'
     name: 'Dataflow1'
@@ -315,8 +341,19 @@ dataflows:
             expression: 'd8e68c9b-e415-43f4-9ef2-1b3d2f51970f.ef5f925e-2164-4d0a-8577-c7a2e92891e7'
           - termId: 'b362ee68-1fa8-4e51-b51e-e8f9eb160920'
             expression: 'd8e68c9b-e415-43f4-9ef2-1b3d2f51970f.946aff2f-4ec7-4f08-acf3-d4a07e893b22'
+          - termId: '39756de0-766e-4b2a-b1db-d07f2ec1d3c4'
+          - termId: '75a4a5d7-5bbb-4625-82c3-fb45bc95acb3'
         dataflowModelObjects:
           - id: 'd8e68c9b-e415-43f4-9ef2-1b3d2f51970f'
             sourceModelObjectId: 'c8bb45d5-b660-4671-85f9-92ab48cd6858'
             alias: 's1'
-relationships: []
+relationships:
+  - id: '110d0662-0a3f-4cab-9956-c662d6f13253'
+    referencedModelObjectId: '0eba8ec2-06f3-42cf-a492-8c91ca0fc82c'
+    role: 'CUSTOMER'
+    relationshipTerms:
+      - termId: '39756de0-766e-4b2a-b1db-d07f2ec1d3c4'
+        referenceTermId: '6852acfb-5802-4e89-97c4-4d4b002d8d28'
+    additionalTermIds:
+      - '75a4a5d7-5bbb-4625-82c3-fb45bc95acb3'
+    propertyValues: []
