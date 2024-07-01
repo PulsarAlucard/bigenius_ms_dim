@@ -75,11 +75,12 @@ terms:
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     isIdentity: false
-    isBusinessKey: false
+    isBusinessKey: true
     isForeignKey: false
     isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    propertyValues: []
   - id: '9e5dec4c-4929-4577-86c4-ca24e38434ec'
     name: 'JOBFUNCTION_ID'
     dataType:
